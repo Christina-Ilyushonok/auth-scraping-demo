@@ -43,10 +43,11 @@ Prerequisites
 Setup
 
 1. Install dependencies
-
+<pre>
 ```bash
 npm install
 ```
+</pre>
 
 2. Initialize Prisma (creates prisma/dev.db)
 
@@ -65,7 +66,8 @@ npx prisma migrate dev --name init
   • No .env is strictly required for the core demo.
 
 Run the end-to-end demo
-
+<pre>
 ```bash
 npm run demo
 ```
+</pre>
