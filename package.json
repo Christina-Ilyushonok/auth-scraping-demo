@@ -1,0 +1,23 @@
+{
+  "name": "auth-scraping-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "http:get": "ts-node src/training/http/get-post.ts",
+    "http:auth": "ts-node src/training/http/token-auth.ts",
+    "http:redirect": "ts-node src/training/http/redirect-test.ts",
+    "scrape:token": "ts-node src/training/scraping/puppeteer-login-with-token.ts",
+    "scrape:cookies": "ts-node src/training/scraping/puppeteer-login-with-cookies.ts",
+    "demo": "ts-node src/demo/index.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.14.0",
+    "axios": "^1.7.7",
+    "prisma": "^6.14.0",
+    "puppeteer": "^24.16.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
