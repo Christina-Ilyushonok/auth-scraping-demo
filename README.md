@@ -60,10 +60,7 @@ npx prisma migrate dev --name init
 
 3. Environment (if needed)
 
-  • Demo uses public fakestoreapi.com credentials for token auth:
-    • username: mor_2314
-    • password: 83r5^_
-  • No .env is strictly required for the core demo.
+  Demo uses public fakestoreapi.com credentials for token auth: username: mor_2314, password: 83r5^_
 
 Run the end-to-end demo
 <pre>
