@@ -1,7 +1,3 @@
-Here’s a clean README.md you can drop into the repo.
-
-auth-scraping-demo
-
 Mini-project to practice auth-aware scraping with JS/TS: token-based auth (Bearer/JWT), cookie-based auth (session), Puppeteer + Cheerio parsing, and saving results to SQLite via Prisma.
 
 Stack
