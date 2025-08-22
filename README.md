@@ -44,9 +44,9 @@ Setup
 
 1. Install dependencies
 <pre>
-```bash
+
 npm install
-```
+
 </pre>
 
 2. Initialize Prisma (creates prisma/dev.db)
